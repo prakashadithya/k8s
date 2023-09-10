@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: my-website
-          image: my-website:1.0  # Use the image you built earlier
+          image: nginx  # Use the image you built earlier
           ports:
             - containerPort: 80

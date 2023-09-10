@@ -13,7 +13,7 @@ spec:
         app: my-website
     spec:
       containers:
-        - name: my-website
+        - name: amazoncorretto
           image: nginx  # Use the image you built earlier
           ports:
             - containerPort: 80

@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: amazoncorretto
-          image: balag91/dockerfile_redmine:v1  # Use the image you built earlier
+          image: balag91/dockerfile_redmine:v2  # Use the image you built earlier
           ports:
             - containerPort: 80
